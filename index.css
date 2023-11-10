@@ -9,6 +9,8 @@
 
 body{
     display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     width: 1440px;
     height: 875px;
 }
@@ -44,7 +46,7 @@ header form input{
     letter-spacing: 0.75px;
 }
 
-header a{
+#cadastre-se{
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -53,6 +55,9 @@ header a{
     color: #474747;
     line-height: 28px;
     letter-spacing: 0.75px;
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
 }
 
 header button{
@@ -94,4 +99,41 @@ header button{
     margin-left: -7px;
     letter-spacing: 0.5px;
     cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 16px;
+    gap: 32px;
+    padding-top: 50px;
+    color: #474747;
+    letter-spacing: 0.75px;
+}
+
+#underhome{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+#underhome span{
+    font-family: Inter;
+    font-weight: 700;
+    padding-left: 100px;
+    color:#c92071;
+    cursor: pointer;
+}
+
+#underhome img{
+    width: 49px;
+    height: 2px;
+    margin-top: 5px;
+}
+
+nav p{
+    font-family: Inter;
+    margin-bottom: 5px;
 }
