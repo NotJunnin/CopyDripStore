@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CopyDripStore</title>
+    <title>DripStore</title>
+    <link rel="icon" href="/imagens/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <img src="imagens/logo.png" alt="Logo Digital Store" id="logo">
-        <form action="">
-            <input type="text" placeholder="Pesquisar produto...">
-            </button>
-        </form>
-        <p id="cadastre-se">Cadastre-se</p>
-        <button type="submit">Entrar</button>
-        <img src="imagens/Carrinho.png" alt="Carrinho de Compras" id="carrinho">
-        <p id="quantidade">2</p>
+
+    <header class="cabecalho">
+
+        <img class="cabecalho-imagem" src="imagens/logo.svg" alt="Logo da DripStore">
+        <p class="cabecalho-digital-store">Digital Store</p>
+        <input class="cabecalho-pesquisar" type="text" placeholder="Pesquisar produto...">
+        <img class="cabecalho-imagem-pesquisar" src="imagens/search.svg" alt="Imagem da pesquisa">
+        <p class="cabecalho-cadastre-se">Cadastre-se</p>
+        <button class="cabecalho-entrar">Entrar</button>
+        <img class="cabecalho-carrinho" src="imagens/carrinho.svg" alt="Imagem do carrinho">
+        <p class="cabecalho-carrinho-contador">1</p>
+
     </header>
-    <nav>
-        <div id="underhome">
-            <span>Home</span>
-            <img src="imagens/Underline Home.png" alt="Anderline do Home">
-        </div>
-        <p>Produtos</p>
-        <p>Categorias</p>
-        <p>Meus Pedidos</p>
+
+    <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item">Home</a>
+        <a class="cabecalho-menu-item">Produtos</a>
+        <a class="cabecalho-menu-item">Categorias</a>
+        <a class="cabecalho-menu-item">Meus Pedidos</a>
     </nav>
+
+    <main class="conteudo">
+
+        <section class="conteudo-carrossel">
+
+            <div class="conteudo-carrossel-escrito">
+                <p class="conteudo-carrossel-escrito-melhores-ofertas">Melhores ofertas personalizadas</p>
+                <p class="conteudo-carrossel-escrito-queima-estoque">Queima de stoque Nike 🔥</p>
+                <p class="conteudo-carrossel-escrito-loren">Consequat culpa exercitation mollit nisi excepteur do do
+                    tempor laboris eiusmod irure consectetur.</p>
+                <button class="conteudo-carrossel-ver-ofertas">Ver Ofertas</button>
+            </div>
+
+            <img class="conteudo-carrossel-tenis" src="imagens/white_sneakers.svg" alt="Imagem do tênis">
+            <img class="conteudo-carrossel-ornamento" src="imagens/ornamento.svg" alt="Imagem do ornamento">
+
+        </section>
+
+        <img class="conteudo-carrossel-elipse" src="imagens/carrossel_elipse.svg" alt="Imagem da elipse">
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
